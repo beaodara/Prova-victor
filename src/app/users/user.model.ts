@@ -12,7 +12,7 @@ export interface ResponseUsers {
     per_page: number
     total: number
     total_pages: number
-    data: User[]
+    data: User[];
   }
   
 
