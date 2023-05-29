@@ -1,8 +1,11 @@
 //diferença ts e js
-// Em Angular, um endpoint é uma rota definida na API ou serviço que a aplicação se comunica para obter ou enviar dados. O HttpClient é usado para realizar solicitações HTTP aos endpoints. Os serviços encapsulam a lógica de comunicação com os endpoints e retornam os dados para os componentes.
+// Em Angular, um endpoint é uma rota definida na API ou serviço que a aplicação se comunica para obter ou enviar 
+dados. O HttpClient é usado para realizar solicitações HTTP aos endpoints. Os serviços encapsulam a lógica de 
+comunicação com os endpoints e retornam os dados para os componentes.
 
 //organizar html
-//Para organizar o HTML considerando a estrutura descrita, podemos criar três componentes: AppHeader, AppContent e AppFooter. Aqui está como eu organizaria o HTML usando esses componentes:
+//Para organizar o HTML considerando a estrutura descrita, podemos criar três componentes: AppHeader, AppContent e 
+AppFooter. Aqui está como eu organizaria o HTML usando esses componentes:
 
 html
 Copy code
@@ -10,13 +13,21 @@ Copy code
 <app-header></app-header>
 <app-content></app-content>
 <app-footer></app-footer>
-O AppHeader seria responsável por exibir o menu de página no topo da página. O AppContent seria responsável por exibir o conteúdo principal da página, incluindo qualquer formulário necessário. O AppFooter seria responsável por exibir o menu no pé da página.
+O AppHeader seria responsável por exibir o menu de página no topo da página. 
+O AppContent seria responsável por exibir o conteúdo principal da página, incluindo qualquer formulário necessário. 
+O AppFooter seria responsável por exibir o menu no pé da página.
 
-Dessa forma, podemos separar a lógica e a aparência de cada seção em componentes distintos, promovendo uma melhor organização e manutenção do código. Cada componente seria definido em seu próprio arquivo TypeScript e HTML correspondente, conforme necessário.
+Dessa forma, podemos separar a lógica e a aparência de cada seção em componentes distintos, promovendo uma melhor 
+organização e manutenção do código. Cada componente seria definido em seu próprio arquivo TypeScript e HTML correspondente,
+conforme necessário.
 
-O código TypeScript correspondente para cada componente seria definido em arquivos separados, como app-header.component.ts, app-content.component.ts e app-footer.component.ts. O mesmo se aplicaria aos arquivos HTML correspondentes (app-header.component.html, app-content.component.html e app-footer.component.html), onde cada componente poderia ser estilizado e estruturado individualmente.
+O código TypeScript correspondente para cada componente seria definido em arquivos separados, como app-header.component.ts,
+ app-content.component.ts e app-footer.component.ts. O mesmo se aplicaria aos arquivos HTML correspondentes 
+ (app-header.component.html, app-content.component.html e app-footer.component.html), onde cada componente poderia ser
+ estilizado e estruturado individualmente.
 
-Aqui está um exemplo de como você pode criar um formulário em Angular para enviar os dados para o servidor e um endpoint para receber esses dados:
+Aqui está um exemplo de como você pode criar um formulário em Angular para enviar os dados para o servidor e um endpoint 
+para receber esses dados:
 
 Criação do formulário no Angular:
 app.component.html:
@@ -77,4 +88,5 @@ app.listen(3000, () => {
 });
 Certifique-se de substituir http://seu-endpoint.com/dados no código Angular pelo URL correto do seu servidor.
 
-Essa é uma maneira básica de criar um formulário em Angular e enviar os dados para o servidor através de um endpoint. No servidor, você pode manipular os dados recebidos da maneira desejada e retornar uma resposta adequada.
+Essa é uma maneira básica de criar um formulário em Angular e enviar os dados para o servidor através de um endpoint. 
+No servidor, você pode manipular os dados recebidos da maneira desejada e retornar uma resposta adequada.
